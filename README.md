@@ -437,6 +437,20 @@
          공용 PC를 사용하는 경우 Refresh Token의 만료시간이 3일 , 1주일이 되는 경우 무한정 로그인이 유지되기 떄문에 
 올바른 보안 정책이 아니라고 생각하였음 , 만약 모바일 환경이라면 공용으로 핸드폰을 사용할 일은 없기 떄문에 1주일 이상의 만료시간을 설정해도 괜찮다고 생각함.
 
+
+로그인 시연 
+![login](https://github.com/masiljangajji/jankens/assets/61807355/4ecd3dc0-2fa0-4548-86df-62b160f1ae65)
+
+마이페이지 시연
+![mypage](https://github.com/masiljangajji/jankens/assets/61807355/85a57196-5b5a-4c15-8b11-e0521beb975b)
+
+기능 시연
+
+![my-books 기능](https://github.com/masiljangajji/nhnacademy-be4-My-Books/assets/61807355/8c938266-1d51-45cc-822c-4168f811f466)
+
+Api Docs
+![ApiDocs](https://github.com/masiljangajji/jankens/assets/61807355/d496915d-474e-428b-8671-04019350b6da)
+
 ### 포인트
 - 담당자 : 이담호, 박민수, 이승재
 - 포인트 내역 생성 조회, 포인트 적립 
