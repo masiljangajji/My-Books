@@ -1,7 +1,7 @@
 # 📖 My-Books
 - My-Books는 고객이 책을 검색하고 주문할 수 있는 인터넷 서점입니다.
-- URL: https://www.my-books.store(만료)
-- Api Docs : https://www.my-books.store/api-docs(만료)
+- URL(만료): https://www.my-books.store
+- Api Docs(만료) : https://www.my-books.store/api-docs
 
 ### 개발 기간
 - 2024-02-05 ~ 2024-03-29
