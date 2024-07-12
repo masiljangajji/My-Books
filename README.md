@@ -96,7 +96,7 @@
 ### ERD
 ![er1](https://github.com/nhnacademy-be4-My-Books/.github/assets/80580473/443914c1-c967-4032-a8d2-48e584220bf2)
 ### WBS
-- GitHub Projects의 [Road Map](https://github.com/orgs/nhnacademy-be4-My-Books/projects/2/views/3) 사용
+- GitHub Projects의 [RoadMap](https://github.com/orgs/My-Books-projects/projects/2/views/1?groupedBy%5BcolumnId%5D=Assignees) 사용
   <img width="2552" alt="스크린샷 2024-03-27 00 17 31" src="https://github.com/nhnacademy-be4-My-Books/.github/assets/80580473/ad52f456-200d-480b-aa6d-8c3ae032bf4d">
 
 ### 테스트 커버리지
