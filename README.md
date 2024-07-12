@@ -262,7 +262,7 @@
     > 로그인 후 동작 가능한 마이페이지 조회 (/user) 를 예시로 그렸습니다.
     ![My-Books-인가 drawio (1)](https://github.com/My-Books-projects/gateway/assets/61807355/56b6586d-6dde-4898-ac4f-80d9b556c224)
 
-    1. Front 서버에서 Cookie Interceptor 를 이용해 쿠키 정보 확인
+    1. Front Server에서 Cookie Interceptor 를 이용해 쿠키 정보 확인
     2. RequiredAuthorization 어노테이션이 있는 경우 Authorization AOP 동작
     3. 토큰 정보를 헤더에 담아 gateway 로 요청 
     4. Gateway Server 는 인증/인가가 필요한 경우와 그렇지 않은 경우를 나눠서 처리 
@@ -291,7 +291,7 @@
 
       5. Gateway Server 에서 토큰 검증 (토큰조작,만료,유저권한,유저상태)
 
-      6. Gateway Server 검증 성공시 url 변경 및 redis에서 유저 아이디를 찾아 헤더에 넣어 요청진행
+      6. Gateway Server 검증 성공시 url 변경 및 Redis에서 유저 아이디를 찾아 헤더에 넣어 요청진행
          
          ~~~
                 public static ServerHttpRequest getAdminRequest(ServerWebExchange exchange, String originalPath) {
@@ -331,7 +331,7 @@
           ~~~
 
       
-      8. aop 에서 에러에 따른 응답을 선택 
+      8. Front Server Authorization AOP 에서 에러에 따른 응답을 선택 
         
             ~~~
                 @Around(value = "@annotation(store.mybooks.front.auth.Annotation.RequiredAuthorization)")
@@ -398,7 +398,7 @@
 
             ~~~
 
-    9. aop 에서 Exception 발생시 ControllerAdvice 가 잡아 분기처리 
+    9. Front Server Authorization AOP 에서 Exception 발생시 ControllerAdvice 가 잡아 분기처리 
 
           ~~~
         // 토큰 인증/인가와 관련된 모든 예외를 잡음
