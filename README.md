@@ -3,9 +3,9 @@
 - URL(만료): https://www.my-books.store
 - Api Docs(만료) : https://www.my-books.store/api-docs
 
-- [api-server](https://github.com/My-Books-projects/resource)
-- [gateway-server](https://github.com/My-Books-projects/gateway)
-- [auth-server](https://github.com/My-Books-projects/authorization)
+- [api-server-repo](https://github.com/My-Books-projects/resource)
+- [gateway-server-repo](https://github.com/My-Books-projects/gateway)
+- [auth-server-repo](https://github.com/My-Books-projects/authorization)
 
 ### 구성원
 | <a href="https://github.com/minsu11"><img src="https://github.com/minsu11.png" width="100px"><br>박민수</a> | <a href="https://github.com/newjaehun"><img src="https://github.com/newjaehun.png" width="100px"><br>신재훈</a> | <a href="https://github.com/damho-lee"><img src="https://github.com/damho-lee.png" width="100px"><br>이담호</a> |<a href="https://github.com/masiljangajji"><img src="https://github.com/masiljangajji.png" width="100px"><br>이승재</a> |<a href ="https://github.com/hyeonjaez"> <img src ="https://github.com/hyeonjaez.png" width ="100px"><br>정재현</a>
