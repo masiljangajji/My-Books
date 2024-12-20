@@ -3,7 +3,8 @@
 - URL(만료): https://www.my-books.store
 - Api Docs(만료) : https://www.my-books.store/api-docs
 
-- [api-server-repo](https://github.com/My-Books-projects/resource)
+- [front-server-repo](https://github.com/My-Books-projects/front)
+- [back-server-repo](https://github.com/My-Books-projects/resource)
 - [gateway-server-repo](https://github.com/My-Books-projects/gateway)
 - [auth-server-repo](https://github.com/My-Books-projects/authorization)
 
